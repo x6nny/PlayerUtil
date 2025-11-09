@@ -259,7 +259,7 @@ end)
 ## 🛠️ Technical Notes
 
 * Built with **Luau strict mode** (`--!strict`)
-* Uses **`task.spawn`** for safe, non-blocking callbacks
+* Uses **`task.spawn`** for safe, non-yielding callbacks
 * Uses **`UserService`** and **`Players`** APIs for data retrieval
 * Automatically cleans up cached data
 * Works seamlessly on both **server** and **client**
