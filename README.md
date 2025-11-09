@@ -68,7 +68,7 @@ It leverages a **custom metatable** (`meta.lua`) to provide convenient iteration
 
 ### 💡 Features
 
-* 🔹 Non-blocking callback execution via `task.spawn()`
+* 🔹 Non-yielding callback execution via `task.spawn()`
 * 🔹 Returns disconnect functions for cleanup
 * 🔹 Uses a metatable for easy player lookup and iteration
 * 🔹 Executes removal callbacks safely during shutdown (`BindToClose`)
